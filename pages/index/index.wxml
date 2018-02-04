@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class='top_swiper'>
+    <swiper-item>
+      <image src="../../images/index/banner/banner.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class='top_tabbar'>
+    <view class='tab phone'>
+      <image src='../../images/index/cells/phone.png'></image>
+      <text>手机</text>
+    </view>
+    <view class='tab tv'>
+      <image src='../../images/index/cells/tv.png'></image>
+      <text>电视</text>
+    </view>
+    <view class='tab computer'>
+      <image src='../../images/index/cells/computer.png'></image>
+      <text>电脑</text>
+    </view>
+    <view class='tab router'>
+      <image src='../../images/index/cells/router.png'></image>
+      <text>智能</text>
+    </view>
+    <view class='tab news'>
+      <image src='../../images/index/cells/news.png'></image>
+      <text>新品</text>
+    </view>
+  </view>
+  <view class='top_tabbar2'>
+    <image src='../../images/index/cells/main1.png'></image>
+    <image src='../../images/index/cells/main2.png'></image>
+  </view>
+  <generalBox inner-object="{{ start }}"></generalBox>
+  <generalBox inner-object="{{ news }}"></generalBox>
+  <generalBox inner-object="{{ intel }}">
+    <view class='img'><image  src='{{intel.bigImageSrc2}}'></image></view>
+  </generalBox>
+  <generalBox inner-object="{{ tv }}">
+    <view class='img'><image  src='{{tv.bigImageSrc2}}'></image></view>
+  </generalBox>
+  <generalBox inner-object="{{ home }}">
+    <view class='img'><image  src='{{home.bigImageSrc2}}'></image></view>
+  </generalBox>
+   <generalBox inner-object="{{ computer }}">
+    <view class='img'><image  src='{{computer.bigImageSrc2}}'></image></view>
+  </generalBox>
+  
+</view>

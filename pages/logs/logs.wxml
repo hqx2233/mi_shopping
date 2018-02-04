@@ -1,0 +1,16 @@
+<view class='component_container'>
+<view>
+  <view class='top_image' wx:if="{{start.isShow}}">
+    <image src='../../images/index/star/star_banner1.png' mode="scaleToFill	"></image>
+  </view> 
+</view>
+  <view class='big'>
+    <view class='min_component' wx:for="{{start.child}}">
+      <image src='{{item.smallImageSrc}}'></image>
+      <text class='title'>{{item.title}}</text>
+      <text class='contents'>{{item.contents}}</text>
+      <text class='price'>{{item.price}}</text>
+    </view>
+  </view>
+
+</view> 

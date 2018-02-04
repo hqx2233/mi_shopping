@@ -1,0 +1,52 @@
+.top_swiper{
+  width: 100%;
+   height: 380rpx; 
+}
+.top_swiper swiper-item image{
+  width: inherit;
+   height: inherit; 
+}
+.top_tabbar{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  justify-content: space-around;
+ 
+  
+}
+.tab{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tab image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.tab text{
+  font-size: 20rpx;
+  color: #999;
+}
+.top_tabbar2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300rpx;
+  background: rgb(245, 245, 245);
+  align-items: center;
+}
+.top_tabbar2 image{
+  width: inherit;
+  height: 280rpx;
+}
+.img{
+  width: 100%;
+  height: 300rpx;
+ background: white;
+}
+.img image{
+  width: inherit;
+  height: 293rpx;
+  margin-top: 7rpx;
+}
