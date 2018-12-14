@@ -1,7 +1,7 @@
 {
   "num": 3, 
   "title": "主题名", 
-  "Img": "图片全路径", 
+  "Img": "banner.jpg", 
   "desc": "文章介绍", 
   "id": [
     1, 2, 3
